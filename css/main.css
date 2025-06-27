@@ -893,61 +893,82 @@ section{
   width: 80%;
   position: relative;
 }
-#partner .part-cont1 .swiper-slide{
-  border-radius: 30px;
-  overflow: hidden;
-}
+
 #partner .part-cont1 {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
 
-  margin: 0 auto;
+  justify-content: space-between;
+}
+
+
+#partner .part-cont1 .paco1{
+  border-radius: 30px;
+  overflow: hidden;
+  width: 485px;
+  height: 320px;
+}
+
+#partner .paco2{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+
 }
 #partner .paco2 li{
   width: 150px;
   height: 150px;
   background-color: #eee;
 }
-
-
+#partner .pc2 li{
+  width: calc((100% - 20px) / 3);
+}
+#partner .swiper{
+  margin-left: 0;
+  margin-right: 0;
+}
 /*controller*/
 #partner .mv-control{
   display: flex;
   justify-content: space-between;
   z-index: 9999;
-  width: 10%;
-  height: 25px;
+  width: 160px;
+  height: 28px;
   position: relative;
-  top: -36px;
-  left: 60%;
+  top: -380px;
+  left: 300px;
   border: 1px solid #ebebeb;
   align-items: center;
-  padding: 0px 32px;
-  border-radius: 16px;
+  padding: 0px 10px;
+  border-radius: 10px;
   background-color: #fff;
   margin-bottom: 54px;
   box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
 }
 #partner .mv-control .controller{
-  width: 40%;
+  width: 20%;
 }
 #partner .mv-control .pagination{
   width: 60%;
 }
 #partner .mv-control .controller .buttons{
   display: flex;
-  gap: 20px;
+  gap: 5px;
 }
 #partner .mv-control .controller .buttons li{
-  width: 24px;
-  min-width: 24px;
-  height: 24px;
-  min-width: 24px;
-  min-height: 24px;
+  width: 16px;
+  min-width: 16px;
+  min-height: 16px;
   overflow: hidden;
   font-size: 1px;
   cursor: pointer;
+}
+
+#partner .mv-control .swiper-button-next, .swiper-rtl .swiper-button-prev {
+    right: var(--swiper-navigation-sides-offset, 10px);
+    left: 30%;
 }
 #partner .mv-control .controller .buttons .swiper-button-prev:after {
   display: none;
@@ -963,17 +984,17 @@ section{
  
 #partner .mv-control .prevbtn, #main-visual .mv-control .nextbtn{
   position: static;
-  width: 40px;
-  height: 15px;
+  width: 10px;
+  height: 10px;
   color: transparent;
   font-size: 0;
   margin-top: 0;
-} 
+}
 #partner .mv-control .pagination{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
 }
 #partner .mv-control .pagination .swiper-pagination{
   position: static;
