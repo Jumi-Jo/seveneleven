@@ -30,11 +30,11 @@ $(document).ready(function(){//start
 
   const mv = new Swiper('.mv', {
     // 옵션(parameter) 추가
-    /*autoplay: {
+    autoplay: {
       // 자동슬라이드
       delay: 2000, // 슬라이드 한장이 머무르는 시간 5000 = 5초
       disableOnInteraction: false,
-    },*/
+    },
     speed: 3500,
     loop: true,
      navigation: {
@@ -178,7 +178,7 @@ $(document).ready(function(){//start
 
       //#new .new-left .new-tit li을 클릭하면 다음과 같은 일이 일어남
       $("#new .new-cont .new-cont-ul .new-cont-li").hide();
-      $("#new .new-left .new-tit li p, #new .new-left .new-tit li .txt-under").hide();
+  
 
       //첫번째 .tab-btn의 li의 active
       //첫번째 .tab-cont의 li만 나오게
@@ -201,7 +201,6 @@ $(document).ready(function(){//start
         aa $(this)의 순번이 담김*/
         $("#new .new-cont .new-cont-ul .new-cont-li").eq(bb).show().siblings().hide();
         //active 붙은 li의 자식 p, .txt-under 나오게
-       
       });
 
 

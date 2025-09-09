@@ -98,13 +98,14 @@ header nav .gnb > li:hover > a{
 header nav .gnb > li > a{
   color: #333;
   font-family: var(--font-jamsil);
-  font-size: 2rem;
+  font-size: 3rem;
 }
 header nav .gnb > li > .about7{
   white-space: nowrap;
-  font-size: 1.8rem;
+  font-size: 3rem;
 }
 header .depth2{
+  width: 240px;
   position: absolute;
   top: 50px;
   left: 50%;
@@ -119,6 +120,7 @@ header .depth2 li a{
   display: block;
   padding: 10px 30px;
   white-space: nowrap;
+  font-size: 2rem;
 }
 
 header .depth2 li:hover{

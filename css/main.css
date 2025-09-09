@@ -20,7 +20,7 @@ section{
 .section-tit p{
   font-family: var(--fontgiantsinline);
   color: #fff;
-  font-size: 2rem;
+  font-size: 3rem;
   white-space: nowrap;
 }
 .section-tit p .sp-orange{
@@ -36,7 +36,7 @@ section{
 .section-tit h2{
   font-family: var(--font-jamsil);
   color: #fff;
-  font-size: 4rem;
+  font-size: 6rem;
   white-space: nowrap;
 }
 
@@ -263,7 +263,7 @@ section{
 }
 #event .inner .event-list{
   width: 75%;
-  padding-top: 30px;
+  padding-top: 50px;
 }
 #event .inner .event-list .event-name ul{
   display: flex;
@@ -287,7 +287,7 @@ section{
 
 #event .event-cont{
   position: absolute;
-  top: 100px;
+  top: 130px;
   left: -30%;
   width: 1600px;
 }
@@ -461,15 +461,6 @@ section{
 
 
 /*#new*/
-@keyframes right{
-
-}
-@keyframes under{
-  0%{transform: translateX(-100%);}
-  30%{transform: translateX(0.2);}
-  80%{transform: translateX(0.7);}
-  100%{transform: translateX(0);}
-}
 #new{
   margin-top: 700px;
 }
@@ -479,8 +470,8 @@ section{
   justify-content: space-between;
 }
 #new .new-left{
-  width: 25%;
-  padding-left: 10%;
+  width: 30%;
+  /* padding-left: 10%; */
 }
 #new .new-left .new-tit li{
   margin-bottom: 40px;
@@ -496,22 +487,24 @@ section{
 }
 #new .new-left .txt-under .or-line{
   background-color: #fc7732;
-  /*animation: under 3s;*/
 }
 #new .new-left .txt-under .gr-line{
   background-color: #03826d;
-  /*animation: under 3s;*/
+
 }
 #new .new-left .txt-under .red-line{
   background-color: #ca1f31;
-  /*animation: under 3s;*/
 }
 
 #new .new-left .new-tit li.active{
   text-align: right;
 }
-
-
+#new .new-left .new-tit .show-tit{
+  opacity: 0;
+}
+#new .new-left .new-tit li.active .show-tit{
+  opacity: 1;
+}
 
 
 
@@ -523,7 +516,7 @@ section{
 
 
 #new .new-cont{
-  width: 65%;
+  width: 60%;
 }
 #new .new-cont .new-right-ul{
   display: flex;
@@ -594,15 +587,12 @@ section{
 }
 #new .new-cont .txt-under .or-line{
   background-color: #fc7732;
-  /*animation: under 3s;*/
 }
 #new .new-cont .txt-under .gr-line{
   background-color: #03826d;
-  /*animation: under 3s;*/
 }
 #new .new-cont .txt-under .red-line{
   background-color: #ca1f31;
-  /*animation: under 3s;*/
 }
 
 
