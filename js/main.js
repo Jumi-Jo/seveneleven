@@ -30,11 +30,11 @@ $(document).ready(function(){//start
 
   const mv = new Swiper('.mv', {
     // 옵션(parameter) 추가
-    autoplay: {
+    /*autoplay: {
       // 자동슬라이드
       delay: 2000, // 슬라이드 한장이 머무르는 시간 5000 = 5초
       disableOnInteraction: false,
-    },
+    },*/
     speed: 3500,
     loop: true,
      navigation: {

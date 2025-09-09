@@ -69,8 +69,7 @@ section{
 
 /*main-visual*/
 #main-visual{
-  padding-top: 3%;
-  width: 80%;
+  padding-top: 50px;
   margin: 0 auto;
   position: relative;
 }
@@ -282,7 +281,7 @@ section{
   border-radius: 20px;
   white-space: nowrap;
 }
-#event .inner .event-list .event-name ul li:hover{
+#event .inner .event-list .event-name ul li.active{
   background-color: #fc7732;
 }
 
@@ -292,11 +291,12 @@ section{
   left: -30%;
   width: 1600px;
 }
-
+#event .event-cont .evcont-ul .evcont-li .event-img ul li{
+  width: 240px;
+}
 #event .event-cont .evcont-ul .evcont-li .event-img ul li .img-box{
-
-  width: 300px;
-  height: 300px; 
+  width: 240px;
+  height: 240px; 
   background-color: #fff;
 }
 #event .event-cont .evcont-ul .evcont-li .event-img ul li .img-box img{
@@ -306,11 +306,11 @@ section{
 }
 #event .event-cont .evcont-ul .evcont-li .event-img ul li a{
   display: block;
-  width: 100%;
+  width: 240px;
 }
 #event .event-cont .evcont-ul .evcont-li .event-img ul li .txt-box{
-  text-align: center;
   padding-top: 20px;
+  text-align: center;
 }
 #event .event-cont .evcont-ul .evcont-li .event-img ul li .txt-box p{
   color: #fff;
@@ -322,6 +322,7 @@ section{
   font-size: 2rem;
   font-family: var(--font-jamsil);
   margin-bottom: 50px;
+  text-align: center;
 }
 #event .event-cont .evcont-ul .evcont-li .event-img ul li .txt-box h5{
   color: #ca1f31;
@@ -330,16 +331,19 @@ section{
   font-family: var(--font-jamsil);
   font-size: 1.6rem;
 }
-
+#event .event-cont .evcont-ul .ev03 ul{
+  display: flex;
+  gap: 220px;
+}
 #event .event-cont .evcont-ul .ev03 .event-img ul li a{
   display: flex;
-  gap: 10px;
+  gap: 20px;
   position: relative;
 }
 #event .event-cont .evcont-ul .ev03 .plus{
   position: absolute;
   top: 25%;
-  left: 75%;
+  left: 70%;
   background-color: #fc7732;
   border-radius: 50%;
   padding: 10px;
@@ -352,7 +356,7 @@ section{
 #event .event-icon{
   position: absolute;
   top: 5px;
-  right: 0;
+  left: 220px;
   background-color: #fc7732;
   color: #fff;
   padding: 5px 10px;
@@ -912,13 +916,13 @@ section{
 
 #partner .paco2{
   display: flex;
-  justify-content: space-between;
+
   flex-wrap: wrap;
   gap: 10px;
 
 }
 #partner .paco2 li{
-  width: calc((100% - 20px) / 3);
+  width: 150px;
   height: 150px;
   background-color: #eee;
 }
@@ -926,7 +930,7 @@ section{
   margin-top: 10px;
 }
 #partner .pc3 li{
-  width: calc((100% - 50px) / 6);
+  width: 150px;
   height: 150px;
   background-color: #eee;
 }
