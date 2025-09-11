@@ -205,6 +205,13 @@ $(document).ready(function(){//start
 
 
 
+      //#sevencafe 
+      $("#sevencafe .sevencafe-cont p").hide();
+
+      $("#sevencafe .sevencafe-cont").hover(function(){
+        $("#sevencafe .sevencafe-cont p").stop().fadeToggle();
+      });
+
       //membership
        $("#membership .tab-cont li").hide();
 
