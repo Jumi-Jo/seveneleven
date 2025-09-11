@@ -364,11 +364,11 @@ footer .copy{
 footer .f-logo{
   width: 300px;
   position: absolute;
-  bottom: -70%;
+  bottom: -50%;
   right: 30%;
 }
 footer .f-logo img{
-  height: 160px;
+  height: 120px;
   object-fit: contain;
 }
 
